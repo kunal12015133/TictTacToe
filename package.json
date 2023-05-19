@@ -1,6 +1,7 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
+  "homepage": "https://kunal12015133.github.io/TictTacToe",
   "private": true,
   "proxy": "http://127.0.0.1:5000",
   "dependencies": {
