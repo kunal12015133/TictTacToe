@@ -58,7 +58,7 @@ const Board = () => {
             {isWinner} won the game{" "}
           
           <div className="button">
-            <button style={{margin:"10px"}} onClick={handleReset}>Play Again</button>
+            <button  onClick={handleReset}>Play Again</button>
             </div>
           </div>
         </>
@@ -66,14 +66,14 @@ const Board = () => {
         <>
           {filled === 9 ? <>
             <div className="header">
-            "No one won the game"
+            No one won the game
           
             <div className="button">
               <button onClick={handleReset}>Play Again</button>
             </div>
             </div>
           </> : <>
-            <h4 className="header">Player {isXTurn ? "X" : "O"} please move</h4>
+            <h1 className="header">Player {isXTurn ? "X" : "O"} please move</h1>
             <div className="board-row">
               <Square onClick={() => handleClick(0)} value={state[0]} />
               <Square onClick={() => handleClick(1)} value={state[1]} />

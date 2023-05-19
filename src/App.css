@@ -8,7 +8,16 @@
   margin: 20px;
 }
 
+.button{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: 10px;
+}
+
 .header{
   text-align: center;
   margin: "10px";
+  font-size: xx-large;
+  font-weight: bold;
 }
